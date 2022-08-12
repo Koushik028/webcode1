@@ -1,0 +1,56 @@
+h1{
+    font-family: 'Splash', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    letter-spacing: 5px;
+    color:whitesmoke;
+    
+ 
+}
+body{
+    background: linear-gradient(to right, #26d0ce, #1a2980);
+    justify-content: center;
+}
+
+#image_link{
+    height: 250px;
+    width: 250px;
+        
+}
+
+#innerdiv{
+    text-align: center;
+  width: 500px;
+  height: 400px;
+  overflow-y: auto;
+  transition: 0.5s;
+  
+
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;   
+    margin-top: 20px;
+    gap: 10px;
+    
+}
+
+#description{
+    width: 200px;
+    text-align: center;
+    padding-left: 150px;
+    font-family: 'IBM Plex Sans', sans-serif;
+   
+}
+#brand{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight:800;
+}
+
+#product_link{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
